@@ -2,10 +2,11 @@
 
 body {
     background-attachment: fixed;
-    font: bold 00.75em 'Mandali', sans-serif;
+    font: bold 0.60em 'Mandali', sans-serif;
     text-align: center;
     background: #F1F1F1;
-    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
 }
 #pree {
     color:rgba(255, 0, 0, 0.707);
@@ -15,17 +16,18 @@ body {
     margin-top: -2.5em
 }
 .caixa{
-    width: 20em; border-color: white;
+    width: 29em; border-color: white;
 }
 p{
     margin-bottom: 0;
 }
 header {
     padding: 1em;
+
     background-image:linear-gradient(to right, #527791, #72C4D2);
 }
 main{
-    padding-top: 6em;
+    padding-top: 15em;
     display: inline-block;
 }
 #imagem {
@@ -33,12 +35,12 @@ main{
 }
 #login {
     background-color: #F8F9FA;
-    width: 30em;
-    height: 24em;
+    width: 40em;
+    height: 32em;
     box-shadow: 1px 1px 10px #797979;
     border-radius: 0.3em;
     margin-left: 1em;
-    padding: 1em;
+    padding: 0em;
     float: right;
 }
 #rodape {   
@@ -47,6 +49,7 @@ main{
     position:absolute;
     bottom: 0;
     width: 99%;
+    right: 10px;
     height: 3em;
     background-image:linear-gradient(to right, #527791, #72C4D2); 
 }
@@ -59,7 +62,7 @@ button{
     border-radius: 0.3em;
 }
 .caixa:hover{
-    border-width: 1.5px;
+    border-width: 1px;
     border-color: #5cb0f0;
 }
 button:hover{
