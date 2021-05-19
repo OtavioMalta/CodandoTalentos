@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar dados</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon    " href="../midia/fiocruz.png">
+
     <style>
     ::-webkit-input-placeholder {
         font-style: italic;
@@ -14,7 +16,7 @@
 </head>
 <body>
     <header>
-        <div id="container"><a href="home.html" rel="prev"><img src="../midia/arrow.ico"  alt="back" width="15"></a>
+        <div id="container"><a href="../home/home.html" rel="prev"><img src="../midia/arrow.ico"  alt="back" width="15"></a>
         </div>
         <a href="../home/home.html" rel="inicio"><img src="../midia/fiocruz.svg" alt="home" id="home" ></a>
     </header>
@@ -22,18 +24,20 @@
         <a href="../home/home.html"><img src="../midia/x.png" alt="fechar" width="10em" id="fechar"></a>
         <h1 id="edit">Editar dados do Usuário</h1>
         <h3>Nome Completo:</p>
-        <input type="text" name="Nome" id="cad" placeholder="nome_exemplo">
+        <input type="text" name="Nome" id="caixa2" placeholder="nome_exemplo">
         <h3>Email:</p>
-        <input type="text" name="Nome" id="cad" placeholder="email_exemplo" readonly style="background-color: lightgray;">
+        <input type="text" name="Nome" style="width: 29em; border-radius: 0.3em;height: 2em; background-color: lightgray;" placeholder="email_exemplo" readonly style="background-color: lightgray;">
         <h3></p>Matrícula:</p>
-        <input type="text" name="number" id="cad" placeholder="matrícula_exemplo" >
+        <input type="text" name="number" id="caixa2" placeholder="matrícula_exemplo"></h3><br>
+        <button id="finalizar">✓ finalizar</button>
+        <a href="../excluir_conta/excluir_conta.html" ><p id="exc">Deseja excluir esta conta?</p></a> 
     </div>
     <footer>
         <div id="rodape">
             ©GAFio Devs, 2020<br>
             Desenvolvido por Otávio Malta&nbsp&nbsp&nbsp
-            <a href="https://github.com/OtavioMalta"><img src="../midia/25231.png" alt="GitHubp" width="10px" class="git" class="preto"></a>
-            <a href="https://github.com/OtavioMalta"><img src="../midia/git.png" alt="GitHub" width="10px" class="git" class="branco"></a>
+            <a href="https://github.com/OtavioMalta" target="_blank"><img src="../midia/25231.png" alt="GitHubp" width="10px" class="git" class="preto"></a>
+            <a href="https://github.com/OtavioMalta" target="_blank"><img src="../midia/git.png" alt="GitHub" width="10px" class="git" class="branco"></a>
         </div>
     </footer>
 </body>

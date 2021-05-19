@@ -17,6 +17,7 @@ body {
 }
 .caixa{
     width: 29em; 
+    height: 2em;
     border-radius: 0.3em; 
     border-style: solid;
     
@@ -83,6 +84,14 @@ strong:hover{
 .git:hover {
     opacity: 0;
 }
+#excluir:hover{
+    background-color:rgb(56, 138, 56);
+    color: white;
+}
+.caixa2:hover{
+    border-style: solid;
+    border-color:  rgba(15, 211, 15, 0.734);
+}
 a{
     color: rgb(111, 185, 185); text-decoration: none;
 }
@@ -101,11 +110,12 @@ a{
     height: 2em;
     font-size: 10;
 }
+
 ::-webkit-input-placeholder {
     font-style: italic;
     color: lightgray;
  }
- #home{
+#home{
     text-align: center;
     width: 6em;
     padding-top: 9 ;
@@ -118,7 +128,7 @@ a{
 #editar{
     width: 50em;
     background-color:#F8F9FA;
-    height: 30em;
+    height: 38em;
     margin-left: 57em;
     margin-top: 8em;
 
@@ -126,4 +136,61 @@ a{
 #fechar{
     position: absolute;
     margin-left: 19em;
+    margin-top: 1.4em;
+}
+#excluir{
+    width: 8em; 
+    height: 2.5em;
+    background-color:#2D2BFE;
+    float: left;
+    margin-left: 2.7em;
+}
+#finalizar{
+    background-color: #2D2BFE;
+    width: 8em;
+    height: 3em;
+    float: left;
+    margin-left: 3.3em;
+}
+#finalizar:hover{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: #2D2BFE;
+    border-width: 0.15em;
+}
+#exclusao{
+    font-size: medium;
+    text-align: left;
+    width: 25em;
+    background-color:#F8F9FA;
+    height: 10em;
+    margin-left:30em;
+    margin-top: 3em;
+    padding: 5em;
+
+}
+#excluir{
+    margin-top: 2em;
+    border-style: solid;
+    border-width: 0.5mm;
+    border-color: rgb(56, 138, 56);
+    color: black;
+    margin-left: 0;
+    background-color:#F8F9FA;
+}
+#caixa2{
+    width: 29em; 
+    height: 2em;
+    border-radius: 0.3em; 
+    border-style: solid;
+}
+#exc{
+    color: #2D2BFE;
+    font-size: 1em;
+    float: right;
+    margin-right: 5em;
+}
+#exc:hover{
+    color: rgb(106, 106, 186);
 }

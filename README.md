@@ -2,6 +2,6 @@
 Projeto Codando Talentos da UFU
 
 - [x] Tela de Login
-- [ ] Cadastrar
-- [ ] Editar Dados
-- [ ] Excluir Conta
+- [x] Cadastrar
+- [x] Editar Dados
+- [x] Excluir Conta
