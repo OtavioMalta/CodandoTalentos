@@ -8,3 +8,10 @@ FioCruz
 - [x] Excluir Conta
 
 Checker
+- [ ] Comparar textos <br>
+      Case Sensitive<br>
+      Limpar<br>
+- [ ] Checar tamanhos<br>
+      Tamanho maximo<br>
+      Limpar <br>
+      Saída
