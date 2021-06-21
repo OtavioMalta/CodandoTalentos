@@ -1,6 +1,9 @@
 body{
     background-image: linear-gradient(to right, #3866F2, #C225FF);
 }
+p{
+    margin: 5px;
+}
 header{
     text-align: center;
 }
@@ -14,11 +17,11 @@ main{
 #rodape {   
     font-size: 13px;
     text-align: center;
-    position:absolute;
-    bottom: 0;
     width: 99%;
     right: 10px;
     height: 4em;
+    top: 100%;  
+    bottom: 0;  
 }
 .git {
     position: absolute;
@@ -41,7 +44,15 @@ margin-left: 28%;
 #botao{
     background-color: #AEB2F2;
     border: none;
-    width: 7%;
+    width: 10%;
     padding: 0.4%;
     border-radius: 3px;
+}
+#tamMax{
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    border-bottom: 1px solid currentColor;
+
 }

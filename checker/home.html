@@ -16,14 +16,39 @@
             <input type="radio" id="botao1" name="opc">Comparar Textos<br>
             <input type="radio" id="botao2" name="opc">Checar Tamanho
         </div>
-        <div id="Comparar">
+        <div id="comparar">
             <div id="case">
             <br>Case-Sensitive?<input type="checkbox"><br></div>
             <textarea class="msg" cols="35" rows="8"></textarea>
             <textarea class="msg" cols="35" rows="8"></textarea><br>
             <button id="botao">Limpar</button>
         </div>
-    
+        
+        <div id="checar">
+            <div id="tam">
+                <br>Digite o Tamanho Máximo do Texto: <input class="input" id="tamMax" type="text" autocomplete="off" >
+                <p>Possui Saida?
+                <input type="radio" id="botao3" name="opc2"> Sim
+                <input type="radio" id="botao4" name="opc2"> Não</p>
+            </div>
+            <textarea class="msg" cols="35" rows="8" placeholder="Digite o Texto Aqui "></textarea>
+            <p>Tamanho Atual: </p> 
+            <p>Status: </p>
+            <p>Tamanho Atual Sem Espaços: </p>
+            <button id="botao">Limpar</button>
+            <div id="saida">
+                <p>Selecione o Tipo de Saída: </p>
+                <input type="radio" id="botao5" name="opc3"> None
+                <input type="radio" id="botao6" name="opc3"> UPPERCASE
+                <input type="radio" id="botao7" name="opc3"> lowercase
+                <input type="radio" id="botao8" name="opc3"> Capitalize <br>
+                <textarea class="msg" cols="35" rows="8" placeholder="Saída"></textarea> <br>
+                <button id="botao">Atualizar</button>
+
+            </div>
+
+        </div>
+
     </main>
     <footer>
         <div id="rodape">
