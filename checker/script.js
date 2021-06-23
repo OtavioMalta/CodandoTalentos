@@ -86,7 +86,7 @@ function conferirTam(){
     }
 }
 function capitalize(string){
-    return string.replace(/(?:^|\s)\S/g, function(s) { return s.toUpperCase(); });
+    return string.replace(/\b(\w)/g, s => s.toUpperCase());
 }
 function tipo(){
     var opcao = document.getElementsByName("opc3");
