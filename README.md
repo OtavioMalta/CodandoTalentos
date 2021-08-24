@@ -1,5 +1,5 @@
 # CodandoTalentos
-Projeto Codando Talentos da UFU
+Projeto Codando Talentos da Universidade Federal de Uberlândia
 
 ## FioCruz
 - [x] Tela de Login
